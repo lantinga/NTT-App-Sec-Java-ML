@@ -90,6 +90,7 @@ public class AdminController {
       if (!auth.equals("notset")) {
         if(isAdmin(auth)) {
           //request.getSession().setAttribute("auth",auth);
+          //Matts Test
           return succ;
         }
       }
